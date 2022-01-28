@@ -1,0 +1,16 @@
+// node.js Microservice tutorials 
+Monolithic Application --> 
+----------------------------------------------------
+| Request-->MiddleWare-->Router-->Application-->db |   ---> For all Feature App
+----------------------------------------------------
+
+Microservice Application -->
+----------------------------------------------------
+| Request-->MiddleWare-->Router-->Application-->db |   ---> For one Feature App
+----------------------------------------------------
+
+// challenges for MS 
+Data Management 
+
+ * Each Micro service has it own database
+ * Services will never be able to reach the other service database.
